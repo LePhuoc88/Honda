@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#anh{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+#anh #hinhslide{
+	width: inherit;
+	max-height: 300px;
+}
+#anh #previous{
+	position: absolute;
+	top: 120px;
+	left: 0px;
+	width: 28px;
+	height: 44px;
+	display: none;
+}
+#anh #next{
+	position: absolute;
+	top: 120px;
+	right: 0px;
+	width: 28px;
+	height: 44px;
+	display: none;
+}
+#anh:hover #previous{
+	display: block;
+	opacity: 40%;
+	cursor: pointer;
+}
+#anh:hover #next{
+	display: block;
+	opacity: 40%;
+	cursor: pointer;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.3s;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.2);
+}
+form {
+	margin: auto;
+	width: 650px;
+	
+	border-radius: 5px;
+	
+}
+.nut{
+	width: 150px;
+	margin: auto;
+}
+.dang{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

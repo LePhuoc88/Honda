@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+article{
+	display:table-row;
+}
+aside#left, aside#right, section{
+	display:table-cell;
+	vertical-align:top;
+}
+aside#left{
+	width:240px;
+}
+section{
+	width: 1000px;
+	padding:0px 8px;
+}
+aside#right{
+	width:200px;
+}
+aside#left>div{
+	border:1px solid  #FF0004;
+	border-radius:4px;
+	margin-bottom:10px;
+}
+aside#left>div>p{
+	background-color: #FF0004;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	color:white;
+	height:25px;
+	padding-top:5px;
+}
+aside#left>div>ul{
+	padding-left:10px;
+	font-size:14px;
+	font-family:Arial;
+}
+aside#left>div>ul>li{
+	height:25px;
+	list-style-position:inside;
+	list-style-image:url(../Image/Image%20S%C3%A1ch/muitendo.gif);
+	padding-left:5px;
+}
+aside#left>div>ul>li a{
+	color:#206AB5;
+	text-decoration:none;
+}
+aside#left>div>ul>li a:hover{
+	color:#FF0000;
+}
+aside#right>div{
+	border:1px solid #206AB5;
+	border-radius:4px;
+	margin-top:30px;
+}
+aside#right>div>p{
+	background-color: #FF0004;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+	height:25px;
+	padding-top:5px;
+}
+aside#right>div#sbn p{
+	clear:both;
+}
+aside#right>div#sbn img{
+	width:40px;
+	heigh:50px;
+	padding-left:5px;
+	float:left;
+	margin-bottom:5px;
+}
+aside#right>div#sbn a{
+	text-decoration:none;
+	font-size:9px;
+	font-family:Arial;
+	color: #001BE0;
+	height:70px;
+}
+aside#right>div#shn a:hover{ font-weight:bold}
+aside#right>div#lkw select{
+	margin:10px;
+	width:70px;
+	height:30px;
+	border-radius:3px;
+	border:#808080 solid 1px;
+	text-align:center;
+}
+.calendar{
+	border:1px solid #206AB5;
+	border-radius:4px;
+	margin-bottom:10px;
+}
+.calendar table{
+	width:100%;
+}
+.calendar table tr td.monthyear{
+	background-color: #FF0000;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFF;
+	border:1px solid #666;
+}
+.calendar table tr.weektitle td{
+	text-align:center;
+	font-weight:bold;
+	border:1px solid #666;
+	background-color:#CCF;
+}
+
+.calendar table tr td.weekday{
+	text-align:center;
+	border:1px solid #666;
+}
+
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.3s;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.2);
+}
+
+.hoa{
+	width: 32%;
+	border: 1px dotted #4D4A4A;
+	text-align: center;
+	float: left;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	margin-left: 8px;
+	margin-right: 1px;
+	background-color:white; 
+}
+.tenhoa{
+	color: #0E29F5;
+	font-weight: bold;
+	font-size: 20px;
+}
+.hinhanh{
+	height:190px;
+	width: 230px;
+	 transition-duration: 0.2s;
+}
+.hinhanh:hover{
+	 transform: scale(1.2);
+	
+}
+.gia{
+	font-weight: bold;
+	color: #EF0A0E;
+}
+.btn btn-danger{
+	margin-bottom: 5px;
+}

@@ -1,0 +1,36 @@
+.carousel{
+	max-height: 500px;
+}
+.body{
+	width: 1200px;
+	margin:auto;
+}
+.navbar{
+	max-height: 50px;
+	border-radius: 3px;
+}
+.gioithieu{
+	max-width: 1200px;
+	margin:auto;
+}
+.but{
+	margin-bottom: 12px;
+}
+.tren>a:hover{
+color: #FF0004;	
+}
+.chinh{
+	max-width: 1200px;
+	margin:auto;
+}
+.row>div>a:hover{
+color: #EC5356;	
+	
+}
+.so{
+	margin-left: 515px;
+}
+
+.nav-link:hover {
+	text-decoration: none;
+}
